@@ -1,0 +1,4 @@
+mixin figure(alt, src)
+  - if (typeof(src) === 'undefined') src = 'images/transparent.png'
+  figure&attributes(attributes)
+    img(alt="#{alt}", src="#{src}")

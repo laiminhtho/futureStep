@@ -1,0 +1,23 @@
+{
+  "name": "jade-sass",
+  "version": "0.0.0",
+  "dependencies": {
+
+    "modernizr": "",
+    "bourbon": "~3.2.0",
+    "jquery": "1.11.1",
+    "animations": "",
+    "swiper": "",
+    "placeholder": "",
+    "sticky": "",
+    "jquery-validation": "",
+    "jquery-accordion": "",
+    "selectUI": "git@bitbucket.org:opendigital/rd0008.git",
+    "checkboxUI": "git@bitbucket.org:opendigital/rd0009.git",
+    "radioUI": "git@bitbucket.org:opendigital/rd0010.git",
+    "pubsub": "git@bitbucket.org:opendigital/rd0013.git",
+    "bootstrap-sass-official": ""
+
+  },
+  "devDependencies": {}
+}

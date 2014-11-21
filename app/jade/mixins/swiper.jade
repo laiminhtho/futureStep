@@ -1,0 +1,11 @@
+mixin swiper(item)
+  .review-media-carousel
+    .swiper-container
+      ul.swiper-wrapper
+        each items in item
+          li.swiper-slide(class="#{items.className}")
+            +link()
+              +img("", "#{items.src}")
+      .pagination
+    +link().arrow-left
+    +link().arrow-right
